@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\admin\\OneDrive\\Documents\\My Web Sites\\DatabaseProjectDemoTest\\DatabaseProjectDemoTest.sqlproj": {}
+    "c:\\Users\\admin\\OneDrive\\Documents\\My Web Sites\\DatabaseProjectDemoTest\\DatabaseProjectDemoTest.sqlproj": {}
   },
   "projects": {
-    "C:\\Users\\admin\\OneDrive\\Documents\\My Web Sites\\DatabaseProjectDemoTest\\DatabaseProjectDemoTest.sqlproj": {
+    "c:\\Users\\admin\\OneDrive\\Documents\\My Web Sites\\DatabaseProjectDemoTest\\DatabaseProjectDemoTest.sqlproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\admin\\OneDrive\\Documents\\My Web Sites\\DatabaseProjectDemoTest\\DatabaseProjectDemoTest.sqlproj",
+        "projectUniqueName": "c:\\Users\\admin\\OneDrive\\Documents\\My Web Sites\\DatabaseProjectDemoTest\\DatabaseProjectDemoTest.sqlproj",
         "projectName": "DatabaseProjectDemoTest",
-        "projectPath": "C:\\Users\\admin\\OneDrive\\Documents\\My Web Sites\\DatabaseProjectDemoTest\\DatabaseProjectDemoTest.sqlproj",
+        "projectPath": "c:\\Users\\admin\\OneDrive\\Documents\\My Web Sites\\DatabaseProjectDemoTest\\DatabaseProjectDemoTest.sqlproj",
         "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\admin\\OneDrive\\Documents\\My Web Sites\\DatabaseProjectDemoTest\\obj\\",
+        "outputPath": "c:\\Users\\admin\\OneDrive\\Documents\\My Web Sites\\DatabaseProjectDemoTest\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",

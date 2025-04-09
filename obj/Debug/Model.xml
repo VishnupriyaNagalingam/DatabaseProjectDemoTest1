@@ -12,7 +12,7 @@
 		</CustomData>
 		<CustomData Category="Reference" Type="Assembly">
 			<Metadata Name="LogicalName" Value="DatabaseProjectDemoTest.dll" />
-			<Metadata Name="FileName" Value="C:\Users\admin\OneDrive\Documents\My Web Sites\DatabaseProjectDemoTest\obj\Debug\DatabaseProjectDemoTest.dll" />
+			<Metadata Name="FileName" Value="c:\Users\admin\OneDrive\Documents\My Web Sites\DatabaseProjectDemoTest\obj\Debug\DatabaseProjectDemoTest.dll" />
 			<Metadata Name="AssemblyName" Value="DatabaseProjectDemoTest" />
 			<Metadata Name="PermissionSet" Value="SAFE" />
 			<Metadata Name="Owner" Value="" />
@@ -20,7 +20,7 @@
 			<Metadata Name="IsVisible" Value="True" />
 			<Metadata Name="IsModelAware" Value="True" />
 			<Metadata Name="SkipCreationIfEmpty" Value="True" />
-			<Metadata Name="AssemblySymbolsName" Value="C:\Users\admin\OneDrive\Documents\My Web Sites\DatabaseProjectDemoTest\obj\Debug\DatabaseProjectDemoTest.pdb" />
+			<Metadata Name="AssemblySymbolsName" Value="c:\Users\admin\OneDrive\Documents\My Web Sites\DatabaseProjectDemoTest\obj\Debug\DatabaseProjectDemoTest.pdb" />
 		</CustomData>
 		<CustomData Category="SqlCmdVariables" Type="SqlCmdVariable" />
 	</Header>
@@ -132,6 +132,22 @@
 				</Entry>
 				<Entry>
 					<Element Type="SqlSimpleColumn" Name="[dbo].[Orders].[CreatedBy]">
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="50" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[Orders].[OrderStatus]">
 						<Relationship Name="TypeSpecifier">
 							<Entry>
 								<Element Type="SqlTypeSpecifier">

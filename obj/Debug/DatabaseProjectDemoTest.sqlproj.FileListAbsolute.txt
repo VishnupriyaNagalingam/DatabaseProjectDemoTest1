@@ -9,3 +9,4 @@ C:\Users\admin\OneDrive\Documents\My Web Sites\DatabaseProjectDemoTest\obj\Debug
 C:\Users\admin\OneDrive\Documents\My Web Sites\DatabaseProjectDemoTest\obj\Debug\predeploy.sql
 C:\Users\admin\OneDrive\Documents\My Web Sites\DatabaseProjectDemoTest\obj\Debug\DatabaseProjectDemoTest.dll
 C:\Users\admin\OneDrive\Documents\My Web Sites\DatabaseProjectDemoTest\obj\Debug\DatabaseProjectDemoTest.pdb
+C:\Users\admin\OneDrive\Documents\My Web Sites\DatabaseProjectDemoTest\obj\Debug\DatabaseProjectDemoTest.sourcelink.json

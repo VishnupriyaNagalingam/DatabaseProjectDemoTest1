@@ -4,5 +4,6 @@ CREATE TABLE [dbo].[Tasks]
   [Sourcekey] INT,
   TaskStartDate Date,
   TaskCompleteDate Date,
-  TaskOwner VARCHAR(100)
+  TaskOwner VARCHAR(100),
+  TaskManager VARCHAR(100)
 )

@@ -157,9 +157,9 @@ END;]]></Value>
 		<Element Type="SqlProcedure" Name="[dbo].[GetTasksCountByStartMonth]">
 			<Property Name="BodyScript">
 				<Value><![CDATA[
-  SELECT convert(VARCHAR(7),TaskStartDate, 120) as TaskStartMonth, Count(*) as TaskCount
+  SELECT convert(VARCHAR(7),TaskStartDate, 120) as TaskStartMonth, TaskSource, Count(*) as TaskCount
   from Tasks
-  GROUP BY convert(VARCHAR(7),TaskStartDate, 120)
+  GROUP BY convert(VARCHAR(7),TaskStartDate, 120),TaskSource
 RETURN 0]]></Value>
 			</Property>
 			<Property Name="IsAnsiNullsOn" Value="True" />
@@ -172,6 +172,9 @@ RETURN 0]]></Value>
 				</Entry>
 				<Entry>
 					<References Name="[dbo].[Tasks].[TaskStartDate]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[Tasks].[TaskSource]" />
 				</Entry>
 				<Entry>
 					<References ExternalSource="BuiltIns" Name="[varchar]" />
@@ -215,7 +218,7 @@ RETURN 0]]></Value>
 				</Entry>
 			</Relationship>
 			<Annotation Type="SysCommentsObjectAnnotation">
-				<Property Name="Length" Value="256" />
+				<Property Name="Length" Value="279" />
 				<Property Name="StartLine" Value="1" />
 				<Property Name="StartColumn" Value="1" />
 				<Property Name="HeaderContents" Value="CREATE PROCEDURE [dbo].[GetTasksCountByStartMonth]&#xD;&#xA;  @Startdate date,&#xD;&#xA;  @Enddate date&#xD;&#xA;AS" />

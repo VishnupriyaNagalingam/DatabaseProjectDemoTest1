@@ -3,6 +3,7 @@ CREATE PROCEDURE dbo.GetOrdersByStatus
     @ToDate Date
 AS
 BEGIN
+--Testing
     SELECT OrderStatus, COUNT(*) as OrdersCount FROM dbo.Orders
     WHERE StartDate BETWEEN @FromDate and @ToDate
     GROUP BY OrderStatus

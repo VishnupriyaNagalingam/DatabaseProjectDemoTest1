@@ -9,6 +9,7 @@
   </PropertyGroup>
   <ItemGroup>
     <PostDeploy Include="Insert Orders and Tasks.PostDeployment1.sql" />
+    <None Include="Update TaskSource.PostDeployment1.sql" />
   </ItemGroup>
   <Target Name="BeforeBuild">
     <Delete Files="$(BaseIntermediateOutputPath)\project.assets.json" />

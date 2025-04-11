@@ -6,7 +6,8 @@ CREATE TABLE dbo.Orders
     StartDate DATETIME,
     CompleteDate DATETIME,
     CreatedBy [NVARCHAR](50),
-    OrderStatus [VARCHAR](20)
+    OrderStatus [VARCHAR](20),
+    OrderTargetDate DATETIME
     -- specify more columns here
 );
 GO

@@ -8,10 +8,7 @@
     <ModelCollation>1033, CI</ModelCollation>
   </PropertyGroup>
   <ItemGroup>
-    <None Include="Update TaskSource.PostDeployment1.sql" />
-  </ItemGroup>
-  <ItemGroup>
-    <PostDeploy Include="Update Check.PostDeployment1.sql" />
+    <PostDeploy Include="update TaskName.PostDeployment1.sql" />
   </ItemGroup>
   <Target Name="BeforeBuild">
     <Delete Files="$(BaseIntermediateOutputPath)\project.assets.json" />

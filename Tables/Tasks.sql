@@ -7,5 +7,6 @@ CREATE TABLE [dbo].[Tasks]
   TaskOwner VARCHAR(100),
   TaskManager VARCHAR(100),
   TaskStatus VARCHAR(100),
-  TaskSource VARCHAR(50)
+  TaskSource VARCHAR(50),
+  TaskName VARCHAR(100)
 )

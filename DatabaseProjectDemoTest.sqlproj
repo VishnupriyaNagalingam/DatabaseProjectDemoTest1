@@ -8,7 +8,6 @@
     <ModelCollation>1033, CI</ModelCollation>
   </PropertyGroup>
   <ItemGroup>
-    <PostDeploy Include="Insert Orders and Tasks.PostDeployment1.sql" />
     <None Include="Update TaskSource.PostDeployment1.sql" />
   </ItemGroup>
   <Target Name="BeforeBuild">

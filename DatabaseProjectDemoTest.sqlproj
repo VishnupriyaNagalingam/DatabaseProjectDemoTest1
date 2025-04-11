@@ -8,7 +8,6 @@
     <ModelCollation>1033, CI</ModelCollation>
   </PropertyGroup>
   <ItemGroup>
-    <PostDeploy Include="Script.PostDeployment1.sql" />
     <None Include="update.PostDeployment2.sql" />
   </ItemGroup>
   <Target Name="BeforeBuild">

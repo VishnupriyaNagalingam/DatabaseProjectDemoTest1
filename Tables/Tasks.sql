@@ -5,5 +5,6 @@ CREATE TABLE [dbo].[Tasks]
   TaskStartDate Date,
   TaskCompleteDate Date,
   TaskOwner VARCHAR(100),
-  TaskManager VARCHAR(100)
+  TaskManager VARCHAR(100),
+  TaskStatus VARCHAR(100)
 )
